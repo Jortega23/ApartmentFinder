@@ -12,8 +12,8 @@ import {Link} from "react-router-dom"
        </li>
      })
      return(
-       <ul>
-         {apt}
+       <ul className = "list">
+         <h3>{apt}</h3>
        </ul>
     );
    }
